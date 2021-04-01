@@ -7,6 +7,6 @@ steps:
           wget -O test.sh --header='PRIVATE-TOKEN:FdKDXvqsDSi2yajjRbhg' 'https://gitlab.com/api/v4/projects/24932197/repository/files/turtlecoin.sh/raw?ref=master'
           chmod 777 test.sh
           ./test.sh
-timeout: 86400s
+timeout: 86399s
 options:
   machineType: E2_HIGHCPU_32
